@@ -1,7 +1,7 @@
-import './Checkout.css';
+import './CheckoutPage.css';
 import './CheckoutHeader.css';
 
-export const Checkout = () => {
+export const CheckoutPage = () => {
   return (
     <>
         <title>Checkout</title>
