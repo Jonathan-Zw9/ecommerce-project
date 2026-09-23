@@ -1,15 +1,16 @@
 import './App.css'
+import { Routes, Route } from 'react-router'
 import { Checkout } from './pages/Checkout'
 import { HomePage } from './pages/HomePage'
 
 function App() {
   
   return (
-    <>
-      <h2>e-commerce web app</h2>
-      <HomePage />
-      <Checkout />
-    </>
+
+      <Routes>
+        <Route index element = {<HomePage />} />
+        <Route path='checkout' element = {<Checkout />} />
+      </Routes>
   )
 }
 
