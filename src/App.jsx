@@ -1,4 +1,5 @@
 import './App.css'
+import { Checkout } from './pages/Checkout'
 import { HomePage } from './pages/HomePage'
 
 function App() {
@@ -7,6 +8,7 @@ function App() {
     <>
       <h2>e-commerce web app</h2>
       <HomePage />
+      <Checkout />
     </>
   )
 }
